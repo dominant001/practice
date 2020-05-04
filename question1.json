@@ -1,0 +1,80 @@
+{
+    "questions": [{
+      "1": "What will be the output of the following code ?\na =  \"p\" = 3\nprint(a)",
+      "2": " What is output of −33 == 33.0",
+      "3": "What is the output of following code − [ (a,b) for a in range(3) for b in range(a) ]",
+      "4": "Suppose we have a set a = {10,9,8,7}, and we execute a.remove(14) what will happen",
+      "5": "What is the output of the following code? eval(''1 + 3 * 2'')",
+      "6": "Which event among them is fired when the right mouse button is released?",
+      "7": "What is the value of this expression? 2**2**3**1",
+      "8": "What will be the output of the following code : print type(type(int))",
+      "9": "chr(ord('A'))"
+    }],
+    "answers": [{
+      "1": {
+        "a": "pp",
+        "b": "ppp",
+        "c": "3p",
+        "d": "p3"
+      },
+      "2": {
+        "a": "false",
+        "b": "true",
+        "c": "33",
+        "d": "None of Above"
+      },
+      "3": {
+        "a": "[(1,0),(2,1),(3,2)]",
+        "b": "[(0,0),(1,1),(2,2)]",
+        "c": "[(1,0),(2,1),(2,1)]",
+        "d": "[(1,0),(2,0),(2,1)]"
+      },
+      "4": {
+        "a": "We cannot remove an element from set.",
+        "b": "Method is executed but no exception is raised.",
+        "c": "Key error is raised",
+        "d": "There doesn’t exist such method as remove."
+      },
+      "5": {
+        "a": "‘1+6’",
+        "b": "‘4*2’",
+        "c": "‘1+3*2’",
+        "d": "7"
+      },
+      "6": {
+        "a": "<ButtonReleased>",
+        "b": "<ButtonPressed>",
+        "c": "<ButtonReleased-3>",
+        "d": "<ButtonPressed-3>"
+      },
+      "7": {
+        "a": "12",
+        "b": "64",
+        "c": "128",
+        "d": "256"
+      },
+      "8": {
+        "a": "type 'int'",
+        "b": "type 'type'",
+        "c": "Error",
+        "d": "0"
+      },
+      "9": {
+        "a": "A",
+        "b": "B",
+        "c": "a",
+        "d": "Error"
+      }
+    }],
+    "correct": [{
+      "1": "ppp",
+      "2": "true",
+      "3": "[(1,0),(2,0),(2,1)]",
+      "4": "Key error is raised",
+      "5": "7",
+      "6": "<ButtonReleased-3>",
+      "7": "64",
+      "8": "type 'type'",
+      "9": "A"
+    }]
+  }
