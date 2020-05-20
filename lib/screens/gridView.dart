@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:Benika/screens/GridExample.dart';
 
 class GridExample extends StatefulWidget {
   @override
